@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "641837892555",
+    "project_id": "closure-65d65",
+    "storage_bucket": "closure-65d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641837892555:android:0ac32ac3af6a17ac982c4e",
+        "android_client_info": {
+          "package_name": "com.adedoyin.closure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641837892555-1k5ej5s8bc4hnra4427dcf58ufdblg6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuH6fntnzD8pJnLD65ToetMC5bKq6OV8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641837892555-1k5ej5s8bc4hnra4427dcf58ufdblg6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641837892555-32vf8ti4hed9jf238totvptn097p50su.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatty01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
