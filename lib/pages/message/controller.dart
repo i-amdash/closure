@@ -6,4 +6,8 @@ class MessageController extends GetxController {
   MessageController();
   final state = MessageState();
 
+  Future<void> goProfile() async {
+   await Get.toNamed(AppRoutes.Profile);
+  }
+
 }
