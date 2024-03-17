@@ -1,4 +1,4 @@
-# chatty
+# closure
 
 A new Flutter project.
 

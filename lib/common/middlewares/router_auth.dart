@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/common/store/store.dart';
+import 'package:closure/common/routes/routes.dart';
+import 'package:closure/common/store/store.dart';
 
 import 'package:get/get.dart';
 
@@ -15,7 +15,7 @@ class RouteAuthMiddleware extends GetMiddleware {
   @override
   RouteSettings? redirect(String? route) {
     if (UserStore.to.isLogin || route == AppRoutes.SIGN_IN || route == AppRoutes.INITIAL
-      || route == AppRoutes.Message
+    // || route == AppRoutes.Message
     ) {
       return null;
     } else {

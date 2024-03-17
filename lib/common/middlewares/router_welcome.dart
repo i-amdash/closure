@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/common/store/store.dart';
+import 'package:closure/common/routes/routes.dart';
+import 'package:closure/common/store/store.dart';
 
 import 'package:get/get.dart';
 

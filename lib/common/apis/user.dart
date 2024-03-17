@@ -1,6 +1,6 @@
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/utils/utils.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:closure/common/entities/entities.dart';
+import 'package:closure/common/utils/utils.dart';
+import 'package:closure/common/values/values.dart';
 
 class UserAPI {
   static Future<UserLoginResponseEntity> Login({

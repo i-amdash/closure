@@ -4,9 +4,9 @@ import 'package:cookie_jar/cookie_jar.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:dio_cookie_manager/dio_cookie_manager.dart';
-import 'package:chatty/common/store/store.dart';
-import 'package:chatty/common/utils/utils.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:closure/common/store/store.dart';
+import 'package:closure/common/utils/utils.dart';
+import 'package:closure/common/values/values.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart' hide FormData;
 

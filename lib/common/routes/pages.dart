@@ -1,10 +1,10 @@
 
-import 'package:chatty/pages/frame/sign_in/index.dart';
-import 'package:chatty/pages/message/index.dart';
-import 'package:chatty/pages/frame/welcome/index.dart';
-import 'package:chatty/pages/profile/index.dart';
+import 'package:closure/pages/frame/sign_in/index.dart';
+import 'package:closure/pages/message/index.dart';
+import 'package:closure/pages/frame/welcome/index.dart';
+import 'package:closure/pages/profile/index.dart';
 import 'package:flutter/material.dart';
-import 'package:chatty/common/middlewares/middlewares.dart';
+import 'package:closure/common/middlewares/middlewares.dart';
 
 import 'package:get/get.dart';
 

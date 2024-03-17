@@ -1,5 +1,5 @@
-import 'package:chatty/common/values/colors.dart';
-import 'package:chatty/pages/frame/sign_in/controller.dart';
+import 'package:closure/common/values/colors.dart';
+import 'package:closure/pages/frame/sign_in/controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
-import 'package:chatty/common/apis/apis.dart';
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/common/store/store.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:closure/common/apis/apis.dart';
+import 'package:closure/common/entities/entities.dart';
+import 'package:closure/common/routes/names.dart';
+import 'package:closure/common/store/store.dart';
+import 'package:closure/common/values/values.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -19,16 +19,16 @@ class FirebaseMassagingHandler {
 
   FirebaseMassagingHandler._();
   static AndroidNotificationChannel channel_call = const AndroidNotificationChannel(
-    'com.dbestech.chatty.call', // id
-    'chatty_call', // title
+    'com.dbestech.closure.call', // id
+    'closure_call', // title
     importance: Importance.max,
     enableLights: true,
     playSound: true,
     sound: RawResourceAndroidNotificationSound('alert'),
   );
   static AndroidNotificationChannel channel_message = const AndroidNotificationChannel(
-    'com.dbestech.chatty.message', // id
-    'chatty_message', // title
+    'com.dbestech.closure.message', // id
+    'closure_message', // title
     importance: Importance.defaultImportance,
     enableLights: true,
     playSound: true,

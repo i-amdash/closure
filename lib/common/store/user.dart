@@ -1,8 +1,8 @@
 import 'dart:convert';
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/common/services/services.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:closure/common/entities/entities.dart';
+import 'package:closure/common/routes/names.dart';
+import 'package:closure/common/services/services.dart';
+import 'package:closure/common/values/values.dart';
 import 'package:get/get.dart';
 
 class UserStore extends GetxController {
@@ -18,6 +18,7 @@ class UserStore extends GetxController {
   bool get isLogin => _isLogin.value;
   UserItem get profile => _profile.value;
   bool get hasToken => token.isNotEmpty;
+  set setIsLogin(login) => _isLogin.value = login;
 
   @override
   void onInit() {

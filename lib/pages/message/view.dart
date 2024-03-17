@@ -1,5 +1,5 @@
-import 'package:chatty/common/values/colors.dart';
-import 'package:chatty/pages/message/controller.dart';
+import 'package:closure/common/values/colors.dart';
+import 'package:closure/pages/message/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

@@ -1,6 +1,6 @@
-import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/common/style/style.dart';
-import 'package:chatty/global.dart';
+import 'package:closure/common/routes/routes.dart';
+import 'package:closure/common/style/style.dart';
+import 'package:closure/global.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
